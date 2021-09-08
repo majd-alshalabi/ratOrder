@@ -1,0 +1,55 @@
+name: rat_order
+description: A new Flutter project.
+
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^9.1.0
+  provider: ^5.0.0
+  google_maps_flutter: ^2.0.6
+  ionicons: ^0.1.2
+  geolocator: ^7.1.0
+  bottom_sheet: ^1.0.1
+  carousel_slider: ^3.0.0
+  sqflite: ^2.0.0+3
+  salomon_bottom_bar: ^3.1.0
+  shared_preferences: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/restaurant/
+    - assets/images/food/
+
+  fonts:
+    - family: MateSC-Regular
+      fonts:
+        - asset: assets/fonts/MateSC-Regular.ttf
+    - family: OpenSansCondensed-Light
+      fonts:
+        - asset: assets/fonts/OpenSansCondensed-Light.ttf
+    - family: Lateef-Regular
+      fonts:
+        - asset: assets/fonts/Lateef-Regular.ttf
+    - family: Quicksand-VariableFont_wght
+      fonts:
+        - asset: assets/fonts/Quicksand-VariableFont_wght.ttf
+        
